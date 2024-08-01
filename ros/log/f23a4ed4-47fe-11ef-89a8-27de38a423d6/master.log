@@ -1,0 +1,51 @@
+[rosmaster.main][INFO] 2024-07-22 14:49:38,620: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-07-22 14:49:38,620: Starting ROS Master Node
+[xmlrpc][INFO] 2024-07-22 14:49:38,621: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-07-22 14:49:38,621: Started XML-RPC server [http://rafzarf:11311/]
+[rosmaster.master][INFO] 2024-07-22 14:49:38,621: Master initialized: port[11311], uri[http://rafzarf:11311/]
+[xmlrpc][INFO] 2024-07-22 14:49:38,621: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-07-22 14:49:38,652: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-07-22 14:49:38,653: +PARAM [/roslaunch/uris/host_rafzarf__44531] by /roslaunch
+[rosmaster.master][INFO] 2024-07-22 14:49:38,672: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-07-22 14:49:38,672: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-07-22 14:49:38,678: +SERVICE [/rosout/get_loggers] /rosout http://rafzarf:46749/
+[rosmaster.master][INFO] 2024-07-22 14:49:38,679: +SERVICE [/rosout/set_logger_level] /rosout http://rafzarf:46749/
+[rosmaster.master][INFO] 2024-07-22 14:49:38,679: +PUB [/rosout_agg] /rosout http://rafzarf:46749/
+[rosmaster.master][INFO] 2024-07-22 14:49:38,681: +SUB [/rosout] /rosout http://rafzarf:46749/
+[rosmaster.master][INFO] 2024-07-22 14:49:58,018: +PUB [/rosout] /demo_msg_publisher http://rafzarf:33921/
+[rosmaster.master][INFO] 2024-07-22 14:49:58,018: +SERVICE [/demo_msg_publisher/get_loggers] /demo_msg_publisher http://rafzarf:33921/
+[rosmaster.master][INFO] 2024-07-22 14:49:58,019: +SERVICE [/demo_msg_publisher/set_logger_level] /demo_msg_publisher http://rafzarf:33921/
+[rosmaster.master][INFO] 2024-07-22 14:49:58,019: +PUB [/demo_msg_topic] /demo_msg_publisher http://rafzarf:33921/
+[rosmaster.master][INFO] 2024-07-22 14:49:58,019: +CACHEDPARAM [/rosout_disable_topics_generation] by /demo_msg_publisher
+[rosmaster.master][INFO] 2024-07-22 14:49:58,063: publisherUpdate[/rosout] -> http://rafzarf:46749/ ['http://rafzarf:33921/']
+[rosmaster.master][INFO] 2024-07-22 14:49:58,068: publisherUpdate[/rosout] -> http://rafzarf:46749/ ['http://rafzarf:33921/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 14:49:58,321: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2024-07-22 14:50:07,828: +PUB [/rosout] /demo_msg_subscriber http://rafzarf:36335/
+[rosmaster.master][INFO] 2024-07-22 14:50:07,829: +SERVICE [/demo_msg_subscriber/get_loggers] /demo_msg_subscriber http://rafzarf:36335/
+[rosmaster.master][INFO] 2024-07-22 14:50:07,829: +SERVICE [/demo_msg_subscriber/set_logger_level] /demo_msg_subscriber http://rafzarf:36335/
+[rosmaster.master][INFO] 2024-07-22 14:50:07,830: +SUB [/demo_msg_topic] /demo_msg_subscriber http://rafzarf:36335/
+[rosmaster.master][INFO] 2024-07-22 14:50:07,886: publisherUpdate[/rosout] -> http://rafzarf:46749/ ['http://rafzarf:33921/', 'http://rafzarf:36335/']
+[rosmaster.master][INFO] 2024-07-22 14:50:07,888: publisherUpdate[/rosout] -> http://rafzarf:46749/ ['http://rafzarf:33921/', 'http://rafzarf:36335/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 14:50:08,121: +CACHEDPARAM [/rosout_disable_topics_generation] by /demo_msg_subscriber
+[rosmaster.master][INFO] 2024-07-22 19:53:16,139: -PUB [/rosout] /demo_msg_subscriber http://rafzarf:36335/
+[rosmaster.master][INFO] 2024-07-22 19:53:16,140: -SUB [/demo_msg_topic] /demo_msg_subscriber http://rafzarf:36335/
+[rosmaster.master][INFO] 2024-07-22 19:53:16,141: -SERVICE [/demo_msg_subscriber/get_loggers] /demo_msg_subscriber rosrpc://rafzarf:42533
+[rosmaster.master][INFO] 2024-07-22 19:53:16,141: -SERVICE [/demo_msg_subscriber/set_logger_level] /demo_msg_subscriber rosrpc://rafzarf:42533
+[rosmaster.master][INFO] 2024-07-22 19:53:16,141: -CACHEDPARAM [/rosout_disable_topics_generation] by /demo_msg_subscriber
+[rosmaster.master][INFO] 2024-07-22 19:53:16,193: publisherUpdate[/rosout] -> http://rafzarf:46749/ ['http://rafzarf:33921/']
+[rosmaster.master][INFO] 2024-07-22 19:53:16,193: publisherUpdate[/rosout] -> http://rafzarf:46749/ ['http://rafzarf:33921/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 19:53:17,351: -PUB [/rosout] /demo_msg_publisher http://rafzarf:33921/
+[rosmaster.master][INFO] 2024-07-22 19:53:17,352: -PUB [/demo_msg_topic] /demo_msg_publisher http://rafzarf:33921/
+[rosmaster.master][INFO] 2024-07-22 19:53:17,352: -SERVICE [/demo_msg_publisher/get_loggers] /demo_msg_publisher rosrpc://rafzarf:59231
+[rosmaster.master][INFO] 2024-07-22 19:53:17,353: -SERVICE [/demo_msg_publisher/set_logger_level] /demo_msg_publisher rosrpc://rafzarf:59231
+[rosmaster.master][INFO] 2024-07-22 19:53:17,354: -CACHEDPARAM [/rosout_disable_topics_generation] by /demo_msg_publisher
+[rosmaster.master][INFO] 2024-07-22 19:53:17,395: publisherUpdate[/rosout] -> http://rafzarf:46749/ []
+[rosmaster.master][INFO] 2024-07-22 19:53:17,397: publisherUpdate[/rosout] -> http://rafzarf:46749/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 19:53:19,300: -PUB [/rosout_agg] /rosout http://rafzarf:46749/
+[rosmaster.master][INFO] 2024-07-22 19:53:19,301: -SUB [/rosout] /rosout http://rafzarf:46749/
+[rosmaster.master][INFO] 2024-07-22 19:53:19,301: -SERVICE [/rosout/get_loggers] /rosout rosrpc://rafzarf:48551
+[rosmaster.master][INFO] 2024-07-22 19:53:19,301: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://rafzarf:48551
+[rosmaster.master][INFO] 2024-07-22 19:53:19,302: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2024-07-22 19:53:19,377: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2024-07-22 19:53:19,377: stopping master...
+[rospy.core][INFO] 2024-07-22 19:53:19,377: signal_shutdown [atexit]

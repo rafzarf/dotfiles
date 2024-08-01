@@ -1,0 +1,124 @@
+[rosmaster.main][INFO] 2024-07-22 22:49:16,096: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-07-22 22:49:16,096: Starting ROS Master Node
+[xmlrpc][INFO] 2024-07-22 22:49:16,098: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-07-22 22:49:16,098: Started XML-RPC server [http://rafzarf:11311/]
+[xmlrpc][INFO] 2024-07-22 22:49:16,098: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-07-22 22:49:16,098: Master initialized: port[11311], uri[http://rafzarf:11311/]
+[rosmaster.master][INFO] 2024-07-22 22:49:16,120: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-07-22 22:49:16,121: +PARAM [/roslaunch/uris/host_rafzarf__42065] by /roslaunch
+[rosmaster.master][INFO] 2024-07-22 22:49:16,139: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-07-22 22:49:16,139: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-07-22 22:49:16,146: +SERVICE [/rosout/get_loggers] /rosout http://rafzarf:40909/
+[rosmaster.master][INFO] 2024-07-22 22:49:16,147: +SERVICE [/rosout/set_logger_level] /rosout http://rafzarf:40909/
+[rosmaster.master][INFO] 2024-07-22 22:49:16,148: +PUB [/rosout_agg] /rosout http://rafzarf:40909/
+[rosmaster.master][INFO] 2024-07-22 22:49:16,148: +SUB [/rosout] /rosout http://rafzarf:40909/
+[rosmaster.master][INFO] 2024-07-22 22:50:00,535: +PUB [/rosout] /demo_action http://rafzarf:33817/
+[rosmaster.master][INFO] 2024-07-22 22:50:00,536: +SERVICE [/demo_action/get_loggers] /demo_action http://rafzarf:33817/
+[rosmaster.master][INFO] 2024-07-22 22:50:00,536: +SERVICE [/demo_action/set_logger_level] /demo_action http://rafzarf:33817/
+[rosmaster.master][INFO] 2024-07-22 22:50:00,537: +PUB [/demo_action/result] /demo_action http://rafzarf:33817/
+[rosmaster.master][INFO] 2024-07-22 22:50:00,538: +PUB [/demo_action/feedback] /demo_action http://rafzarf:33817/
+[rosmaster.master][INFO] 2024-07-22 22:50:00,539: +PUB [/demo_action/status] /demo_action http://rafzarf:33817/
+[rosmaster.master][INFO] 2024-07-22 22:50:00,543: +SUB [/demo_action/goal] /demo_action http://rafzarf:33817/
+[rosmaster.master][INFO] 2024-07-22 22:50:00,545: +SUB [/demo_action/cancel] /demo_action http://rafzarf:33817/
+[rosmaster.master][INFO] 2024-07-22 22:50:00,589: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/']
+[rosmaster.master][INFO] 2024-07-22 22:50:00,594: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:50:28,957: +PUB [/rosout] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:28,958: +SERVICE [/demo_action_client/get_loggers] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:28,958: +SERVICE [/demo_action_client/set_logger_level] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:28,960: +SUB [/demo_action/status] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:28,961: +SUB [/demo_action/feedback] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:28,961: +SUB [/demo_action/result] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:28,962: +PUB [/demo_action/goal] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:28,962: +PUB [/demo_action/cancel] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:28,962: +CACHEDPARAM [/rosout_disable_topics_generation] by /demo_action_client
+[rosmaster.master][INFO] 2024-07-22 22:50:29,043: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/', 'http://rafzarf:44797/']
+[rosmaster.master][INFO] 2024-07-22 22:50:29,043: publisherUpdate[/demo_action/goal] -> http://rafzarf:33817/ ['http://rafzarf:44797/']
+[rosmaster.master][INFO] 2024-07-22 22:50:29,045: publisherUpdate[/demo_action/goal] -> http://rafzarf:33817/ ['http://rafzarf:44797/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:50:29,045: publisherUpdate[/demo_action/cancel] -> http://rafzarf:33817/ ['http://rafzarf:44797/']
+[rosmaster.master][INFO] 2024-07-22 22:50:29,046: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/', 'http://rafzarf:44797/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:50:29,047: publisherUpdate[/demo_action/cancel] -> http://rafzarf:33817/ ['http://rafzarf:44797/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:50:29,342: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2024-07-22 22:50:29,343: +CACHEDPARAM [/rosout_disable_topics_generation] by /demo_action
+[rosmaster.master][INFO] 2024-07-22 22:50:30,343: -SUB [/demo_action/status] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:30,344: -PUB [/demo_action/cancel] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:30,345: -PUB [/demo_action/goal] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:30,346: -SUB [/demo_action/feedback] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:30,347: -SUB [/demo_action/result] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:30,347: publisherUpdate[/demo_action/cancel] -> http://rafzarf:33817/ []
+[rosmaster.master][INFO] 2024-07-22 22:50:30,349: publisherUpdate[/demo_action/cancel] -> http://rafzarf:33817/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:50:30,349: publisherUpdate[/demo_action/goal] -> http://rafzarf:33817/ []
+[rosmaster.master][INFO] 2024-07-22 22:50:30,350: publisherUpdate[/demo_action/goal] -> http://rafzarf:33817/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:50:30,451: -PUB [/rosout] /demo_action_client http://rafzarf:44797/
+[rosmaster.master][INFO] 2024-07-22 22:50:30,453: -SERVICE [/demo_action_client/get_loggers] /demo_action_client rosrpc://rafzarf:36647
+[rosmaster.master][INFO] 2024-07-22 22:50:30,453: -SERVICE [/demo_action_client/set_logger_level] /demo_action_client rosrpc://rafzarf:36647
+[rosmaster.master][INFO] 2024-07-22 22:50:30,454: -CACHEDPARAM [/rosout_disable_topics_generation] by /demo_action_client
+[rosmaster.master][INFO] 2024-07-22 22:50:30,550: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/']
+[rosmaster.master][INFO] 2024-07-22 22:50:30,551: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:50:46,846: +PUB [/rosout] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:46,846: +SERVICE [/demo_action_client/get_loggers] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:46,847: +SERVICE [/demo_action_client/set_logger_level] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:46,848: +SUB [/demo_action/status] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:46,849: +SUB [/demo_action/feedback] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:46,850: +SUB [/demo_action/result] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:46,850: +PUB [/demo_action/goal] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:46,851: +PUB [/demo_action/cancel] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:46,851: +CACHEDPARAM [/rosout_disable_topics_generation] by /demo_action_client
+[rosmaster.master][INFO] 2024-07-22 22:50:46,882: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/', 'http://rafzarf:39999/']
+[rosmaster.master][INFO] 2024-07-22 22:50:46,882: publisherUpdate[/demo_action/goal] -> http://rafzarf:33817/ ['http://rafzarf:39999/']
+[rosmaster.master][INFO] 2024-07-22 22:50:46,884: publisherUpdate[/demo_action/goal] -> http://rafzarf:33817/ ['http://rafzarf:39999/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:50:46,884: publisherUpdate[/demo_action/cancel] -> http://rafzarf:33817/ ['http://rafzarf:39999/']
+[rosmaster.master][INFO] 2024-07-22 22:50:46,884: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/', 'http://rafzarf:39999/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:50:46,885: publisherUpdate[/demo_action/cancel] -> http://rafzarf:33817/ ['http://rafzarf:39999/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:50:48,143: -SUB [/demo_action/status] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:48,144: -PUB [/demo_action/cancel] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:48,145: -PUB [/demo_action/goal] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:48,147: -SUB [/demo_action/feedback] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:48,147: -SUB [/demo_action/result] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:48,186: publisherUpdate[/demo_action/cancel] -> http://rafzarf:33817/ []
+[rosmaster.master][INFO] 2024-07-22 22:50:48,187: publisherUpdate[/demo_action/cancel] -> http://rafzarf:33817/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:50:48,188: publisherUpdate[/demo_action/goal] -> http://rafzarf:33817/ []
+[rosmaster.master][INFO] 2024-07-22 22:50:48,188: publisherUpdate[/demo_action/goal] -> http://rafzarf:33817/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:50:48,291: -PUB [/rosout] /demo_action_client http://rafzarf:39999/
+[rosmaster.master][INFO] 2024-07-22 22:50:48,292: -SERVICE [/demo_action_client/get_loggers] /demo_action_client rosrpc://rafzarf:46265
+[rosmaster.master][INFO] 2024-07-22 22:50:48,293: -SERVICE [/demo_action_client/set_logger_level] /demo_action_client rosrpc://rafzarf:46265
+[rosmaster.master][INFO] 2024-07-22 22:50:48,294: -CACHEDPARAM [/rosout_disable_topics_generation] by /demo_action_client
+[rosmaster.master][INFO] 2024-07-22 22:50:48,388: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/']
+[rosmaster.master][INFO] 2024-07-22 22:50:48,389: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:51:01,184: +PUB [/rosout] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:01,184: +SERVICE [/demo_action_client/get_loggers] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:01,185: +SERVICE [/demo_action_client/set_logger_level] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:01,186: +SUB [/demo_action/status] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:01,187: +SUB [/demo_action/feedback] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:01,188: +SUB [/demo_action/result] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:01,188: +PUB [/demo_action/goal] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:01,188: +PUB [/demo_action/cancel] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:01,189: +CACHEDPARAM [/rosout_disable_topics_generation] by /demo_action_client
+[rosmaster.master][INFO] 2024-07-22 22:51:01,212: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/', 'http://rafzarf:36587/']
+[rosmaster.master][INFO] 2024-07-22 22:51:01,212: publisherUpdate[/demo_action/goal] -> http://rafzarf:33817/ ['http://rafzarf:36587/']
+[rosmaster.master][INFO] 2024-07-22 22:51:01,214: publisherUpdate[/demo_action/goal] -> http://rafzarf:33817/ ['http://rafzarf:36587/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:51:01,214: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/', 'http://rafzarf:36587/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:51:01,214: publisherUpdate[/demo_action/cancel] -> http://rafzarf:33817/ ['http://rafzarf:36587/']
+[rosmaster.master][INFO] 2024-07-22 22:51:01,216: publisherUpdate[/demo_action/cancel] -> http://rafzarf:33817/ ['http://rafzarf:36587/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:51:02,443: -SUB [/demo_action/status] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:02,445: -PUB [/demo_action/cancel] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:02,446: -PUB [/demo_action/goal] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:02,447: -SUB [/demo_action/feedback] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:02,448: -SUB [/demo_action/result] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:02,515: publisherUpdate[/demo_action/cancel] -> http://rafzarf:33817/ []
+[rosmaster.master][INFO] 2024-07-22 22:51:02,516: publisherUpdate[/demo_action/cancel] -> http://rafzarf:33817/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:51:02,516: publisherUpdate[/demo_action/goal] -> http://rafzarf:33817/ []
+[rosmaster.master][INFO] 2024-07-22 22:51:02,517: publisherUpdate[/demo_action/goal] -> http://rafzarf:33817/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:51:02,620: -PUB [/rosout] /demo_action_client http://rafzarf:36587/
+[rosmaster.master][INFO] 2024-07-22 22:51:02,621: -SERVICE [/demo_action_client/get_loggers] /demo_action_client rosrpc://rafzarf:40131
+[rosmaster.master][INFO] 2024-07-22 22:51:02,622: -SERVICE [/demo_action_client/set_logger_level] /demo_action_client rosrpc://rafzarf:40131
+[rosmaster.master][INFO] 2024-07-22 22:51:02,623: -CACHEDPARAM [/rosout_disable_topics_generation] by /demo_action_client
+[rosmaster.master][INFO] 2024-07-22 22:51:02,718: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/']
+[rosmaster.master][INFO] 2024-07-22 22:51:02,719: publisherUpdate[/rosout] -> http://rafzarf:40909/ ['http://rafzarf:33817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-07-22 22:51:36,087: -PUB [/rosout_agg] /rosout http://rafzarf:40909/
+[rosmaster.master][INFO] 2024-07-22 22:51:36,088: -SUB [/rosout] /rosout http://rafzarf:40909/
+[rosmaster.master][INFO] 2024-07-22 22:51:36,088: -SERVICE [/rosout/get_loggers] /rosout rosrpc://rafzarf:40541
+[rosmaster.master][INFO] 2024-07-22 22:51:36,088: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://rafzarf:40541
+[rosmaster.master][INFO] 2024-07-22 22:51:36,089: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2024-07-22 22:51:36,154: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2024-07-22 22:51:36,154: stopping master...
+[rospy.core][INFO] 2024-07-22 22:51:36,154: signal_shutdown [atexit]

@@ -1,0 +1,21 @@
+[rosmaster.main][INFO] 2024-07-12 19:10:38,974: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-07-12 19:10:38,975: Starting ROS Master Node
+[xmlrpc][INFO] 2024-07-12 19:10:38,978: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-07-12 19:10:38,978: Started XML-RPC server [http://rafzarf:11311/]
+[xmlrpc][INFO] 2024-07-12 19:10:38,979: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-07-12 19:10:38,979: Master initialized: port[11311], uri[http://rafzarf:11311/]
+[rosmaster.master][INFO] 2024-07-12 19:10:39,016: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-07-12 19:10:39,016: +PARAM [/roslaunch/uris/host_rafzarf__40381] by /roslaunch
+[rosmaster.master][INFO] 2024-07-12 19:10:39,034: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-07-12 19:10:39,034: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-07-12 19:10:39,047: +SERVICE [/rosout/get_loggers] /rosout http://rafzarf:34561/
+[rosmaster.master][INFO] 2024-07-12 19:10:39,047: +SERVICE [/rosout/set_logger_level] /rosout http://rafzarf:34561/
+[rosmaster.master][INFO] 2024-07-12 19:10:39,048: +PUB [/rosout_agg] /rosout http://rafzarf:34561/
+[rosmaster.master][INFO] 2024-07-12 19:10:39,049: +SUB [/rosout] /rosout http://rafzarf:34561/
+[rosmaster.master][INFO] 2024-07-12 19:11:10,513: -PUB [/rosout_agg] /rosout http://rafzarf:34561/
+[rosmaster.master][INFO] 2024-07-12 19:11:10,513: -SUB [/rosout] /rosout http://rafzarf:34561/
+[rosmaster.master][INFO] 2024-07-12 19:11:10,514: -SERVICE [/rosout/get_loggers] /rosout rosrpc://rafzarf:36515
+[rosmaster.master][INFO] 2024-07-12 19:11:10,514: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://rafzarf:36515
+[rosmaster.main][INFO] 2024-07-12 19:11:10,607: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2024-07-12 19:11:10,608: stopping master...
+[rospy.core][INFO] 2024-07-12 19:11:10,608: signal_shutdown [atexit]

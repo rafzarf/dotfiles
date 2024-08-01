@@ -1,0 +1,4 @@
+
+
+1722071377.197537477  Node Startup
+1722071377.693996191 INFO /joint_state_publisher_gui [__init__.py:179(JointStatePublisherGui.center)] [topics: /joint_states, /rosout] Centering

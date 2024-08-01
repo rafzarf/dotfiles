@@ -1,0 +1,30 @@
+[rospy.client][INFO] 2024-07-27 10:37:48,669: init_node, name[/joint_state_publisher_gui], pid[25066]
+[xmlrpc][INFO] 2024-07-27 10:37:48,670: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-07-27 10:37:48,670: Started XML-RPC server [http://rafzarf:43125/]
+[rospy.init][INFO] 2024-07-27 10:37:48,670: ROS Slave URI: [http://rafzarf:43125/]
+[rospy.impl.masterslave][INFO] 2024-07-27 10:37:48,670: _ready: http://rafzarf:43125/
+[rospy.registration][INFO] 2024-07-27 10:37:48,670: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2024-07-27 10:37:48,670: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2024-07-27 10:37:48,770: registered with master
+[rospy.rosout][INFO] 2024-07-27 10:37:48,770: initializing /rosout core topic
+[rospy.rosout][INFO] 2024-07-27 10:37:48,773: connected to core topic /rosout
+[rospy.simtime][INFO] 2024-07-27 10:37:48,774: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2024-07-27 10:37:48,905: Centering
+[rospy.internal][INFO] 2024-07-27 10:37:49,004: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2024-07-27 10:37:49,070: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rosout][INFO] 2024-07-27 10:37:58,532: Randomizing
+[rosout][INFO] 2024-07-27 10:37:59,097: Randomizing
+[rosout][INFO] 2024-07-27 10:37:59,618: Randomizing
+[rosout][INFO] 2024-07-27 10:38:00,300: Randomizing
+[rosout][INFO] 2024-07-27 10:38:00,820: Randomizing
+[rosout][INFO] 2024-07-27 10:38:01,377: Randomizing
+[rosout][INFO] 2024-07-27 10:38:02,022: Randomizing
+[rosout][INFO] 2024-07-27 10:38:03,358: Randomizing
+[rosout][INFO] 2024-07-27 10:38:39,119: Centering
+[rosout][INFO] 2024-07-27 10:38:41,655: Centering
+[rosout][INFO] 2024-07-27 10:38:42,333: Randomizing
+[rosout][INFO] 2024-07-27 10:38:42,853: Randomizing
+[rosout][INFO] 2024-07-27 10:38:43,361: Randomizing
+[rosout][INFO] 2024-07-27 10:38:43,859: Randomizing
+[rosout][INFO] 2024-07-27 10:39:02,548: Randomizing
+[rosout][INFO] 2024-07-27 10:39:03,186: Randomizing

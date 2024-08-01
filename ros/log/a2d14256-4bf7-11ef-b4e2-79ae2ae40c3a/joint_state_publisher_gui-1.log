@@ -1,0 +1,21 @@
+[rospy.client][INFO] 2024-07-27 16:07:34,638: init_node, name[/joint_state_publisher_gui], pid[536203]
+[xmlrpc][INFO] 2024-07-27 16:07:34,638: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-07-27 16:07:34,639: Started XML-RPC server [http://rafzarf:37351/]
+[rospy.init][INFO] 2024-07-27 16:07:34,639: ROS Slave URI: [http://rafzarf:37351/]
+[rospy.impl.masterslave][INFO] 2024-07-27 16:07:34,639: _ready: http://rafzarf:37351/
+[rospy.registration][INFO] 2024-07-27 16:07:34,639: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2024-07-27 16:07:34,639: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2024-07-27 16:07:34,739: registered with master
+[rospy.rosout][INFO] 2024-07-27 16:07:34,739: initializing /rosout core topic
+[rospy.rosout][INFO] 2024-07-27 16:07:34,743: connected to core topic /rosout
+[rospy.simtime][INFO] 2024-07-27 16:07:34,744: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2024-07-27 16:07:34,858: Centering
+[rospy.internal][INFO] 2024-07-27 16:07:35,016: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2024-07-27 16:07:35,020: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rosout][INFO] 2024-07-27 16:07:38,191: Randomizing
+[rosout][INFO] 2024-07-27 16:08:12,012: Randomizing
+[rosout][INFO] 2024-07-27 16:08:12,443: Randomizing
+[rosout][INFO] 2024-07-27 16:08:12,838: Randomizing
+[rosout][INFO] 2024-07-27 16:08:13,416: Randomizing
+[rosout][INFO] 2024-07-27 16:08:13,836: Randomizing
+[rosout][INFO] 2024-07-27 16:08:14,132: Randomizing
