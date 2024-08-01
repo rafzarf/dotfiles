@@ -22,7 +22,7 @@ tmux:
 
 alacritty:
 	@mkdir -p ${XDG_CONFIG_HOME}/alacritty
-	@ln -nfs "${pwd}/alacritty" ${XDG_CONFIG_HOME}/alacritty
+	@ln -nfs "${pwd}/alacritty.toml" ${XDG_CONFIG_HOME}/alacritty/alacritty.toml
 
 catkin:
 	@mkdir -p ${HOME}/catkin_ws/src
@@ -34,5 +34,5 @@ clean:
 	@rm -rf ${HOME}/.oh-my-zsh
 	@rm -rf ${XDG_CONFIG_HOME}/nvim
 	@rm -f ${HOME}/.tmux.conf
-	@rm -rf ${XDG_CONFIG_HOME}/alacritty
+	@rm -f ${XDG_CONFIG_HOME}/alacritty/alacritty.yml
 	@rm -rf ${HOME}/catkin_ws/src
