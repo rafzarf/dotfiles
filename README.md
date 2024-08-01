@@ -14,7 +14,7 @@ To install these dotfiles, follow these steps:
 2. Run the installation script to symlink the dotfiles to their respective locations.
 
 ```bash
-$ git clone https://github.com/your-username/dotfiles.git
+$ git clone https://github.com/rafzarf/dotfiles.git
 $ cd dotfiles
 $ make install
 ```
