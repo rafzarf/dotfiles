@@ -1,9 +1,9 @@
 pwd := $(shell pwd -LP)
 XDG_CONFIG_HOME ?= ${HOME}/.config
 
-.PHONY: all zsh nvim tmux alacritty ros catkin
+.PHONY: all zsh nvim tmux alacritty catkin
 
-all: zsh nvim tmux alacritty ros catkin
+all: zsh nvim tmux alacritty catkin
 
 zsh:
 	@ln -nfs "${pwd}/zshrc" ${HOME}/.zshrc
@@ -19,9 +19,6 @@ alacritty:
 	@mkdir -p ${XDG_CONFIG_HOME}/alacritty
 	@ln -nfs "${pwd}/alacritty" ${XDG_CONFIG_HOME}/alacritty
 
-ros:
-	@ln -nfs "${pwd}/ros" ${HOME}/.ros
-
 catkin:
 	@mkdir -p ${HOME}/catkin_ws/src
 	@ln -nfs "${pwd}/catkin_src" ${HOME}/catkin_ws/src
@@ -31,5 +28,4 @@ clean:
 	@rm -rf ${XDG_CONFIG_HOME}/nvim
 	@rm -f ${HOME}/.tmux.conf
 	@rm -rf ${XDG_CONFIG_HOME}/alacritty
-	@rm -rf ${HOME}/.ros
 	@rm -rf ${HOME}/catkin_ws/src

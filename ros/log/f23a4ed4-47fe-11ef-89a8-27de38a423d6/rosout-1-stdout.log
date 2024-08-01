@@ -1,4 +1,0 @@
-logging to /home/rafzarf/.ros/log/f23a4ed4-47fe-11ef-89a8-27de38a423d6/rosout.log
-re-publishing aggregated messages to /rosout_agg
-subscribed to /rosout
-rosout log file /home/rafzarf/.ros/log/f23a4ed4-47fe-11ef-89a8-27de38a423d6/rosout.log reached max size, rotating log files
