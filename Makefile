@@ -7,6 +7,11 @@ all: zsh nvim tmux alacritty catkin
 
 zsh:
 	@ln -nfs "${pwd}/zshrc" ${HOME}/.zshrc
+	@ln -nfs "${pwd}/p10k.zsh" ${HOME}/.p10k.zsh
+	@ln -nfs "${pwd}/oh-my-zsh" ${HOME}/.oh-my-zsh
+	@mkdir -p ${HOME}/.oh-my-zsh/custom/plugins
+	@ln -nfs "${pwd}/zsh-syntax-highlighting" ${HOME}/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+	@ln -nfs "${pwd}/zsh-autosuggestions" ${HOME}/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
 nvim:
 	@mkdir -p ${XDG_CONFIG_HOME}/nvim
@@ -25,6 +30,8 @@ catkin:
 
 clean:
 	@rm -f ${HOME}/.zshrc
+	@rm -f ${HOME}/.p10k.zsh
+	@rm -rf ${HOME}/.oh-my-zsh
 	@rm -rf ${XDG_CONFIG_HOME}/nvim
 	@rm -f ${HOME}/.tmux.conf
 	@rm -rf ${XDG_CONFIG_HOME}/alacritty

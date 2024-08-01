@@ -1,0 +1,34 @@
+# Ignore vim-plug plugins
+nvim/plugged/
+
+# Ignore neovim's undo history
+nvim/undo/
+
+# Ignore neovim's swap files
+nvim/swap/
+
+# Ignore neovim's backup files
+nvim/backup/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ROS specific ignores (in case the directory is accidentally added again)
+ros/log/
+ros/*.log
+ros/*.bag
