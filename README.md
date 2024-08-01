@@ -19,6 +19,15 @@ $ cd dotfiles
 $ make install
 ```
 
+## Requirements
+
+Before installing these dotfiles, make sure you have the following requirements:
+
+- Neovim 0.10 or later
+- Astronvim latest ver
+- alacritty 0.14.0-dev
+- Tmux 3.0a
+
 ## Usage
 
 Once the installation is complete, you can start using the dotfiles. Feel free to modify them to suit your needs.
